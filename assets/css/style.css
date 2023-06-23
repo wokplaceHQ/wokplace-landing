@@ -69,6 +69,10 @@
     font-weight: 700;
 }
 
+.about .banner-title {
+    color: #000;
+}
+
 .left-cut {
     margin-left: -22px;
 }
@@ -79,7 +83,7 @@
 
 .banner-sub-title {
     font-size: 1.4em;
-    color: #4c4c4c !important;
+    color: #4c4c4c;
 }
 
 .btn-join {
@@ -89,6 +93,10 @@
     padding: 0.8em 1.5em;
     border-radius: 6px;
     font-size: 1.5em;
+}
+
+.about .btn-join {
+    font-size: 1em;
 }
 
 .btn-join:hover {
@@ -102,6 +110,17 @@
     background-color: #fff;
     border-color: #656565;
     color: #000;
+}
+
+.btn-careers,
+.btn-careers:hover,
+.btn-careers:focus {
+    background-color: #fff;
+    border-color: #adadad;
+    color: #000;
+    padding: 0.8em 1.5em;
+    border-radius: 6px;
+    font-size: 1em;
 }
 
 .btn-nav-join:hover {
@@ -120,6 +139,18 @@
 .section-bg,
 .image-bg {
     background-color: #FAF7F5;
+}
+
+.about .section-bg {
+    background-color: #f5c800;
+}
+
+.orange-bg {
+    background-color: #f96300;
+}
+
+.blue-bg {
+    background-color: #017BFF;
 }
 
 .image-bg {
@@ -187,14 +218,18 @@ h2.custom-title {
     .col-41p {
         width: 41%;
     }
+
     .col-17p {
         width: 17%;
     }
+
     .col-21p {
         width: 21%;
     }
 }
 
-@media (max-width: 991px) {
-    
+@media (max-width: 991px) {}
+
+.yellow-bg {
+    background-color: #f5c800;
 }
